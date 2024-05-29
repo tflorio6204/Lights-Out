@@ -1,0 +1,8 @@
+#gameBoard {
+    background-color: white;
+}
+.cell {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+}

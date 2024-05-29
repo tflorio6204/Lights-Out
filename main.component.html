@@ -1,0 +1,28 @@
+<div class = "gap" >
+    <div class="header">
+        <div class="title"><b>Lights Out!</b></div>
+        <h3>Created by: Thomas Florio<span class="lightOut"><b>Lights Out!</b></span></h3>
+        <h4>Email Address: <a href="mailto:tflorio@udel.edu">tflorio@udel.edu</a></h4>
+    </div>
+    <div class = "body">
+        <div><b><u>How to play:</u></b><br><br>Turn off all the lights (gray) by clicking them to achieve victory! <br>Pay close attention to the pattern you choose.</div>
+        <br>
+        <!--<img src="assets/leds.jpg" id="LEDimage" class="frame"/>--->
+        <!--<img src="assets/leds.jpg" id="LEDimage2" class="frame2"/>-->
+        <div class = "box-controls">
+            <button id = "restart">New Game </button>
+            Height: <input type = "range" id = "slider-h" min = "3" max = "10"><var id = "value"></var>
+            Width: <input type = "range" id = "slider-w" min = "3" max = "10"><var id = "wvalue"></var>
+        </div> 
+        <br>
+        <div> 
+            <span style="position: relative; left: 475px"><b>Select which game mode you'd like to play:</b></span>
+            <select class="selectMode" id="gameSelect">
+            <option value="Diagnols">Diagnols</option>
+            <option value="Rows and Columns">Rows and Columns</option>
+            <option value="Cardinal Neighbors">Cardinal Neighbors</option>
+            </select>
+        </div>
+        <div class = "boxFrame" id="box"><br></div>
+    </div>
+</div>

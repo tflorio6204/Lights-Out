@@ -1,0 +1,74 @@
+.header {
+    background-color: rgb(0, 255, 204);
+}
+.body {
+    background-color: yellow;
+}
+.title {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.lightOut {
+    display: inline;
+    margin-inline: 425px;
+    color: yellow;
+    font-family: fantasy;
+    font-size: xx-large;
+    text-shadow:
+        -3px -3px 0 black,
+        3px -3px 0 black,
+        -3px 3px 0 black,
+        3px 3px 0 black;
+}
+.gap {
+    background-color: yellow;
+}
+.boxFrame {
+    margin-left: 475px;
+}
+.shape {
+    margin-left: 25px;
+}
+.height {
+    margin-right: 10px;
+    color: rgb(205, 63, 63);
+}
+.selectMode {
+    margin-left: 480px;
+}
+.box-controls {
+    margin-left: 450px;
+    margin-top: -100px;
+}
+.frame {
+    border: 4px solid black;
+    border-color: blue;
+}
+.frame2 {
+    border: 4px solid black;
+    border-color: blue;
+}
+#LEDimage {
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 2/3;
+}
+#LEDimage2 {
+    margin-left: 750px;
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 2/3;
+}
+#restart {
+    margin-right: 20px;
+}
+#slider-h {
+    margin-right: 20px;
+}
+#value {
+    margin-right: 25px;
+}
+#wvalue {
+    margin-left: 25px;
+}
